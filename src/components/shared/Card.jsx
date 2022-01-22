@@ -10,7 +10,7 @@ Card.defaultProps = {
 };
 
 Card.propTypes = {
-  reverse: PropTypes.string.isRequired,
+  reverse: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
 };
 export default Card;
